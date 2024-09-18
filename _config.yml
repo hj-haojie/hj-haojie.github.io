@@ -227,9 +227,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: 
-  - ["_pages\about.md"]
-  - ["_pages\projects.md"]
+include: ["_pages"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -241,6 +239,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
+  - blog.md
+  - cv.md
+  - news.md
   - LICENSE
   - lighthouse_results/
   - package.json
