@@ -229,6 +229,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - _pages/cv.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -239,9 +240,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
-  - blog.md
-  - cv.md
-  - news.md
   - LICENSE
   - lighthouse_results/
   - package.json
